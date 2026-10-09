@@ -1,0 +1,77 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.40625,
+     3.86425
+    ]
+   },
+   "properties": {
+    "name": "Horten'taar",
+    "description": "**Type :** Ville principale centrale (capitale)\n**Bâtiments & commodités :** Hôtel de ville, Banque, Boîte aux lettres, Marché, Taverne, Port\n**Métiers :** Atelier Forgeron, Atelier Armurier\n**Ressources (pêche au port) :** Crabe à pinces dures, Crevette grise, Hareng argenté\n**Géographie :** Point central de la carte, dessert toutes les régions.",
+    "_umap_options": {
+     "color": "Goldenrod",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.75,
+     0.35156
+    ]
+   },
+   "properties": {
+    "name": "Martel",
+    "description": "**Type :** Ville de l'Ouest\n**Bâtiments & commodités :** Banque, Boîte aux lettres, Taverne\n**Métiers :** Atelier Mineur, Atelier Joaillier\n**Zones adjacentes :** Mines de Martel, Champs de Martel",
+    "_umap_options": {
+     "color": "SaddleBrown",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.75,
+     -30.44867
+    ]
+   },
+   "properties": {
+    "name": "Balanol",
+    "description": "**Type :** Ville du Sud-Ouest\n**Bâtiments & commodités :** Banque, Boîte aux lettres, Taverne\n**Métiers :** Atelier Couturier, Atelier Sculpteur\n**Zones adjacentes :** Étang de Balanol, Clairière de Balanol",
+    "_umap_options": {
+     "color": "SaddleBrown",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     73.30078,
+     0.35156
+    ]
+   },
+   "properties": {
+    "name": "Venor'taar",
+    "description": "**Type :** Ville de l'Est\n**Bâtiments & commodités :** Banque, Boîte aux lettres, Taverne\n**Métiers :** Atelier Bûcheron, Atelier Alchimiste\n**Zones adjacentes :** Petite Forêt, Cavernes de V., Fermes de Venor'taar",
+    "_umap_options": {
+     "color": "SaddleBrown",
+     "iconClass": "Default"
+    }
+   }
+  }
+ ]
+}

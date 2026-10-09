@@ -26,3 +26,7 @@ python3 tuiles.py farental.jpg tuiles   # nécessite Pillow
 ```
 
 `tuiles/info.json` donne les limites et les zooms calculés. L'adresse est épinglée sur un commit (`@a744c2e`) : après une nouvelle carte, pousse le commit puis remplace ce code dans uMap par le nouveau (`git log --oneline -1`). Avec `@main`, jsDelivr garde l'ancienne version en cache jusqu'à 12 h.
+
+## Lieux et routes
+
+`donnees/lieux.py` génère les couches GeoJSON importées dans uMap (`villes`, `ressources`, `dangers`, `routes`). Les positions sont données en pixels de `farental.jpg`, le script les convertit dans les coordonnées des tuiles. Import dans uMap : *Import data* → coller le fichier → format *geojson* → *Import in a new layer*.

@@ -1,0 +1,163 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -11.07422,
+      2.1089
+     ],
+     [
+      -29.53125,
+      2.46018
+     ],
+     [
+      -50.625,
+      2.28455
+     ],
+     [
+      -72.59766,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Route de Martel (Horten'taar ➔ Martel)",
+    "description": "**Temps à pied :** 4 min 30 s\n**Risques :** Zone sécurisée, quelques sangliers bas niveau.",
+    "_umap_options": {
+     "color": "ForestGreen",
+     "weight": 5,
+     "opacity": 0.85
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.22266,
+      -2.81137
+     ],
+     [
+      -77.87109,
+      -14.94478
+     ],
+     [
+      -78.22266,
+      -27.68353
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Martel ➔ Balanol",
+    "description": "**Temps à pied :** 3 min 15 s\n**Risques :** Route forestière, attention aux brigands la nuit.",
+    "_umap_options": {
+     "color": "Goldenrod",
+     "weight": 5,
+     "opacity": 0.85
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      9.14062,
+      2.1089
+     ],
+     [
+      28.47656,
+      2.1089
+     ],
+     [
+      49.57031,
+      1.93323
+     ],
+     [
+      68.02734,
+      1.05463
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Route de Venor'taar (Horten'taar ➔ Venor'taar)",
+    "description": "**Temps à pied :** 5 min 10 s\n**Risques :** Longue route sinueuse, traversée de ponts.",
+    "_umap_options": {
+     "color": "Goldenrod",
+     "weight": 5,
+     "opacity": 0.85
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -1.40625,
+      11.52309
+     ],
+     [
+      -1.40625,
+      21.28937
+     ],
+     [
+      -1.40625,
+      28.45903
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Horten'taar ➔ Port d'Horten'taar",
+    "description": "**Temps à pied :** 1 min 00 s\n**Risques :** Axe commercial direct et 100 % sécurisé.",
+    "_umap_options": {
+     "color": "ForestGreen",
+     "weight": 5,
+     "opacity": 0.85
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      70.66406,
+      -2.81137
+     ],
+     [
+      63.63281,
+      -13.23995
+     ],
+     [
+      57.48047,
+      -24.84657
+     ],
+     [
+      52.20703,
+      -34.01624
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Venor'taar ➔ Camp de bandit",
+    "description": "**Temps à pied :** 2 min 45 s\n**Risques :** Zone hostile (aggro fréquente de Bandits).",
+    "_umap_options": {
+     "color": "Crimson",
+     "weight": 5,
+     "opacity": 0.85,
+     "dashArray": "8,8"
+    }
+   }
+  }
+ ]
+}

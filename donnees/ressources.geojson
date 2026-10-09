@@ -1,0 +1,131 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.40625,
+     32.24997
+    ]
+   },
+   "properties": {
+    "name": "Port d'Horten'taar",
+    "description": "**Pêche :** Crabe à pinces dures, Crevette grise, Hareng argenté",
+    "_umap_options": {
+     "color": "RoyalBlue",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -91.93359,
+     28.92163
+    ]
+   },
+   "properties": {
+    "name": "Mines de Martel",
+    "description": "**Ressources :** Minerai de fer, Charbon, Étain",
+    "_umap_options": {
+     "color": "SaddleBrown",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -68.20312,
+     22.106
+    ]
+   },
+   "properties": {
+    "name": "Champs de Martel",
+    "description": "**Ressources :** Blé doré, Orge sauvage\n**Monstres :** Épouvantail animé",
+    "_umap_options": {
+     "color": "ForestGreen",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.41797,
+     -49.03787
+    ]
+   },
+   "properties": {
+    "name": "Étang de Balanol",
+    "description": "**Pêche :** Têtard pointu, Brochet majestueux",
+    "_umap_options": {
+     "color": "RoyalBlue",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -57.65625,
+     -47.27923
+    ]
+   },
+   "properties": {
+    "name": "Clairière de Balanol",
+    "description": "**Ressources :** Herbe médicinale, Fleur de lin\n**Monstres :** Loup des bois",
+    "_umap_options": {
+     "color": "ForestGreen",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     54.84375,
+     21.61658
+    ]
+   },
+   "properties": {
+    "name": "Petite Forêt",
+    "description": "**Ressources :** Bois de chêne, Bois de bouleau\n**Monstres :** Araignée tisseuse",
+    "_umap_options": {
+     "color": "ForestGreen",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     68.90625,
+     -27.68353
+    ]
+   },
+   "properties": {
+    "name": "Fermes de Venor'taar",
+    "description": "**Ressources :** Laine de mouton, Cuir brut",
+    "_umap_options": {
+     "color": "ForestGreen",
+     "iconClass": "Default"
+    }
+   }
+  }
+ ]
+}

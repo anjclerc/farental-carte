@@ -1,0 +1,41 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.92188,
+     29.993
+    ]
+   },
+   "properties": {
+    "name": "Cavernes de V.",
+    "description": "**Cavernes de Venor'taar**\n**Ressources :** Cristaux de mana, Pierre brute\n**Monstres :** Chauve-souris géante",
+    "_umap_options": {
+     "color": "Crimson",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     48.69141,
+     -36.17336
+    ]
+   },
+   "properties": {
+    "name": "Camp de bandit",
+    "description": "**Zone hostile :** aggro fréquente de Bandits",
+    "_umap_options": {
+     "color": "Crimson",
+     "iconClass": "Default"
+    }
+   }
+  }
+ ]
+}
