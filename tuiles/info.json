@@ -1,0 +1,17 @@
+{
+  "tuiles": 372,
+  "zoom_min": 1,
+  "zoom_max": 5,
+  "zoom_natif": 3,
+  "limites": {
+    "nord": 55.7766,
+    "sud": -55.7766,
+    "ouest": -120.9375,
+    "est": 120.9375
+  },
+  "centre": {
+    "lat": 0.0,
+    "lng": 0.0
+  },
+  "couleur_fond": "#1b1b1b"
+}
