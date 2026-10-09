@@ -12,9 +12,45 @@
    },
    "properties": {
     "name": "Port d'Horten'taar",
-    "description": "**Pêche :** Crabe à pinces dures, Crevette grise, Hareng argenté",
+    "description": "**Type :** Nature sauvage · Colline · Rivière\n**Installations :** Port, Boîte aux lettres, Marchand, Taverne, Activité illégale\n**Activités :** Entraînement guerrier, Entraînement au tir à l'arc, Travail au port (1,35 G/min)\n**Pêche :** Rivière\n**Trajets :** Horten'taar 15 min, Scierie d'Horten'taar 15 min",
     "_umap_options": {
      "color": "RoyalBlue",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -26.01562,
+     16.29905
+    ]
+   },
+   "properties": {
+    "name": "Fermes d'Horten'taar",
+    "description": "**Type :** Nature sauvage · Colline · Rivière\n**Trajets :** Horten'taar 15 min, Scierie d'Horten'taar 30 min, Martel 45 min\n**À compléter :** ressources et monstres",
+    "_umap_options": {
+     "color": "ForestGreen",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     19.6875,
+     25.32417
+    ]
+   },
+   "properties": {
+    "name": "Scierie d'Horten'taar",
+    "description": "**Type :** Nature sauvage · Colline · Rivière\n**Installations :** Scierie, Atelier de sculpteur\n**Bûcheron :** Aulneeris torsadé\n**Trajets :** Horten'taar 15 min, Port d'Horten'taar 15 min, Fermes d'Horten'taar 30 min, Venor'taar 45 min",
+    "_umap_options": {
+     "color": "ForestGreen",
      "iconClass": "Default"
     }
    }
@@ -29,8 +65,8 @@
     ]
    },
    "properties": {
-    "name": "Mines de Martel",
-    "description": "**Ressources :** Minerai de fer, Charbon, Étain",
+    "name": "Mine de Martel",
+    "description": "**Type :** Nature sauvage · Souterrain\n**Mineur :** Minerai de feerin, Minerai d'oreerin\n**Activités :** Miner du feerin (8 à 11 minerais par heure)\n**Trajets :** Martel 30 min\n**À vérifier :** 30 min dans le jeu, 15 min sur un schéma",
     "_umap_options": {
      "color": "SaddleBrown",
      "iconClass": "Default"
@@ -48,7 +84,7 @@
    },
    "properties": {
     "name": "Champs de Martel",
-    "description": "**Ressources :** Blé doré, Orge sauvage\n**Monstres :** Épouvantail animé",
+    "description": "**Type :** Nature sauvage · Champ · Rivière\n**Pêche :** Rivière\n**Trajets :** Martel 15 min\n**À compléter :** ressources et monstres",
     "_umap_options": {
      "color": "ForestGreen",
      "iconClass": "Default"
@@ -66,7 +102,7 @@
    },
    "properties": {
     "name": "Étang de Balanol",
-    "description": "**Pêche :** Têtard pointu, Brochet majestueux",
+    "description": "**Type :** Nature sauvage · Forêt · Étang · Rivière\n**Bûcheron :** Lontal touffu, Talafiir pointu, Bralenn majestueux\n**Pêche :** Étang\n**Alchimiste :** Pousse de maril, Racine de brol, Fleur de vorliin, Listirelle, Markin sauvage, Velth'aan fine\n**Monstres :** Jeune oleraan (349), Jeune oleraan + Oleraan adulte (840), Jeune lupiaan (406), Lupiaan adulte (725), Oleraan adulte (491), Oleraan mature (847), Lupiaan féroce (986), Jeune lupiaan + Lupiaan adulte (1131)\n**PNJ :** Patient fisherman\n**Trajets :** Balanol 15 min, Grotte des lupiaans 5 min",
     "_umap_options": {
      "color": "RoyalBlue",
      "iconClass": "Default"
@@ -84,7 +120,7 @@
    },
    "properties": {
     "name": "Clairière de Balanol",
-    "description": "**Ressources :** Herbe médicinale, Fleur de lin\n**Monstres :** Loup des bois",
+    "description": "**Type :** Nature sauvage\n**Trajets :** Balanol 30 min\n**À compléter :** ressources et monstres",
     "_umap_options": {
      "color": "ForestGreen",
      "iconClass": "Default"
@@ -101,10 +137,28 @@
     ]
    },
    "properties": {
-    "name": "Petite Forêt",
-    "description": "**Ressources :** Bois de chêne, Bois de bouleau\n**Monstres :** Araignée tisseuse",
+    "name": "Petite forêt de Venor'taar",
+    "description": "**Type :** Nature sauvage · Forêt\n**Bûcheron :** Lontal touffu, Talafiir pointu\n**Alchimiste :** Pousse de maril, Racine de brol, Fleur de vorliin\n**Trajets :** Venor'taar 15 min, Fermes de Venor'taar 15 min",
     "_umap_options": {
      "color": "ForestGreen",
+     "iconClass": "Default"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.92188,
+     29.993
+    ]
+   },
+   "properties": {
+    "name": "Cavernes de Venor'taar",
+    "description": "**Type :** Nature sauvage · Souterrain · Lac\n**Mineur :** Minerai de feerin, Minerai d'oreerin\n**Pêche :** Lac\n**Trajets :** Venor'taar 15 min",
+    "_umap_options": {
+     "color": "SaddleBrown",
      "iconClass": "Default"
     }
    }
@@ -120,7 +174,7 @@
    },
    "properties": {
     "name": "Fermes de Venor'taar",
-    "description": "**Ressources :** Laine de mouton, Cuir brut",
+    "description": "**Type :** Nature sauvage · Champ · Rivière\n**Pêche :** Rivière\n**Alchimiste :** Oreliaar\n**Monstres :** Jeune oleraan (349), Jeune oleraan + Oleraan adulte (840), Oleraan adulte (491), Oleraan mature (847)\n**PNJ :** Otho Ghikhaam\n**Trajets :** Venor'taar 15 min, Petite forêt de Venor'taar 15 min",
     "_umap_options": {
      "color": "ForestGreen",
      "iconClass": "Default"

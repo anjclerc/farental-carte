@@ -30,3 +30,21 @@ python3 tuiles.py farental.jpg tuiles   # nécessite Pillow
 ## Lieux et routes
 
 `donnees/lieux.py` génère les couches GeoJSON importées dans uMap (`villes`, `ressources`, `dangers`, `routes`). Les positions sont données en pixels de `farental.jpg`, le script les convertit dans les coordonnées des tuiles. Import dans uMap : *Import data* → coller le fichier → format *geojson* → *Import in a new layer*.
+
+### Format des descriptions
+
+Une ligne par information, sous la forme `**Rubrique :** valeur, valeur, valeur`. Ce format reste libre (on peut ajouter des rubriques), mais le garder régulier permet aux outils de la communauté, comme l'extension Farental Bar, de lire la carte. Rubriques utilisées :
+
+| Rubrique | Exemple |
+|---|---|
+| Type | `Village · Colline` |
+| Installations | `Forge, Fonderie, Taverne` |
+| Métiers | `Forgeron, Mineur` |
+| Mineur, Bûcheron, Alchimiste, Pêche | `Minerai de feerin, Minerai d'oreerin` |
+| Monstres | `Jeune oleraan (349)` (puissance du combat entre parenthèses) |
+| PNJ | `Otho Ghikhaam` |
+| Trajets | `Martel 30 min, Balanol 1 h` (durées du jeu) |
+| Relais | `Venor'taar 30 min (700 G)` |
+| À vérifier, À compléter | ce qui reste à confirmer en jeu |
+
+Les noms suivent ceux du jeu (`Mine de Martel`, `Minerai de feerin`…), pour qu'on les retrouve en jeu tels quels.

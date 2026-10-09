@@ -6,13 +6,13 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     94.92188,
-     29.993
+     48.69141,
+     -36.17336
     ]
    },
    "properties": {
-    "name": "Cavernes de V.",
-    "description": "**Cavernes de Venor'taar**\n**Ressources :** Cristaux de mana, Pierre brute\n**Monstres :** Chauve-souris géante",
+    "name": "Camp de bandit des collines du nord",
+    "description": "**Type :** Nature sauvage · Colline\n**Installations :** Atelier de travailleur du cuir, Scierie\n**Trajets :** Venor'taar 45 min",
     "_umap_options": {
      "color": "Crimson",
      "iconClass": "Default"
@@ -24,13 +24,13 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     48.69141,
-     -36.17336
+     -104.23828,
+     -40.9799
     ]
    },
    "properties": {
-    "name": "Camp de bandit",
-    "description": "**Zone hostile :** aggro fréquente de Bandits",
+    "name": "Grotte des lupiaans",
+    "description": "**Type :** Nature sauvage · Souterrain\n**Mineur :** Minerai de feerin, Minerai d'oreerin, Harkrill\n**Alchimiste :** Bonnir souterrain\n**Monstres :** Lupiaan alpha + Jeune lupiaan + Lupiaan féroce (2696)\n**Trajets :** Étang de Balanol 5 min\n**À vérifier :** position approximative, absente du fond de carte",
     "_umap_options": {
      "color": "Crimson",
      "iconClass": "Default"

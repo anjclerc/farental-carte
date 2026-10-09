@@ -12,7 +12,7 @@
    },
    "properties": {
     "name": "Horten'taar",
-    "description": "**Type :** Ville principale centrale (capitale)\n**Bâtiments & commodités :** Hôtel de ville, Banque, Boîte aux lettres, Marché, Taverne, Port\n**Métiers :** Atelier Forgeron, Atelier Armurier\n**Ressources (pêche au port) :** Crabe à pinces dures, Crevette grise, Hareng argenté\n**Géographie :** Point central de la carte, dessert toutes les régions.",
+    "description": "**Type :** Capitale · Colline\n**Installations :** Banque, Boîte aux lettres, Forge, Marchand, Relais de voyage, Taverne\n**Métiers :** Mage, Sculpteur, Travailleur du cuir\n**Trajets :** Port d'Horten'taar 15 min, Fermes d'Horten'taar 15 min, Scierie d'Horten'taar 15 min\n**Relais :** Martel 15 min (350 G), Venor'taar 15 min (350 G)",
     "_umap_options": {
      "color": "Goldenrod",
      "iconClass": "Default"
@@ -30,7 +30,7 @@
    },
    "properties": {
     "name": "Martel",
-    "description": "**Type :** Ville de l'Ouest\n**Bâtiments & commodités :** Banque, Boîte aux lettres, Taverne\n**Métiers :** Atelier Mineur, Atelier Joaillier\n**Zones adjacentes :** Mines de Martel, Champs de Martel",
+    "description": "**Type :** Village · Colline\n**Installations :** Boîte aux lettres, Fonderie, Forge, Intendant des terres, Marchand, Relais de voyage, Taverne, École de forge\n**Métiers :** Forgeron, Mineur, Travailleur du cuir\n**Trajets :** Champs de Martel 15 min, Mine de Martel 30 min, Fermes d'Horten'taar 45 min, Balanol 1 h\n**Relais :** Horten'taar 15 min (350 G), Venor'taar 30 min (700 G)\n**Activités :** Travailler à la taverne, Apprendre les bases de la forge",
     "_umap_options": {
      "color": "SaddleBrown",
      "iconClass": "Default"
@@ -48,7 +48,7 @@
    },
    "properties": {
     "name": "Balanol",
-    "description": "**Type :** Ville du Sud-Ouest\n**Bâtiments & commodités :** Banque, Boîte aux lettres, Taverne\n**Métiers :** Atelier Couturier, Atelier Sculpteur\n**Zones adjacentes :** Étang de Balanol, Clairière de Balanol",
+    "description": "**Type :** Ville · Forêt\n**Installations :** Banque, Boîte aux lettres, Marchand, Relais de voyage, Taverne, Scierie, Laboratoire d'alchimie\n**Métiers :** Couturier, Sculpteur, Travailleur du cuir, Alchimiste\n**Trajets :** Étang de Balanol 15 min, Clairière de Balanol 30 min, Martel 1 h\n**Relais :** Venor'taar 45 min (1050 G)",
     "_umap_options": {
      "color": "SaddleBrown",
      "iconClass": "Default"
@@ -66,7 +66,7 @@
    },
    "properties": {
     "name": "Venor'taar",
-    "description": "**Type :** Ville de l'Est\n**Bâtiments & commodités :** Banque, Boîte aux lettres, Taverne\n**Métiers :** Atelier Bûcheron, Atelier Alchimiste\n**Zones adjacentes :** Petite Forêt, Cavernes de V., Fermes de Venor'taar",
+    "description": "**Type :** Village · Champ\n**Installations :** Boîte aux lettres, Laboratoire d'alchimie, Marchand, Relais de voyage, Taverne, École d'alchimie\n**Métiers :** Alchimiste\n**Trajets :** Petite forêt de Venor'taar 15 min, Cavernes de Venor'taar 15 min, Fermes de Venor'taar 15 min, Camp de bandit 45 min, Scierie d'Horten'taar 45 min\n**Relais :** Horten'taar 15 min (350 G), Martel 30 min (700 G), Balanol 45 min (1050 G)",
     "_umap_options": {
      "color": "SaddleBrown",
      "iconClass": "Default"

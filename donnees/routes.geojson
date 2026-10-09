@@ -25,8 +25,8 @@
     ]
    },
    "properties": {
-    "name": "Route de Martel (Horten'taar ➔ Martel)",
-    "description": "**Temps à pied :** 4 min 30 s\n**Risques :** Zone sécurisée, quelques sangliers bas niveau.",
+    "name": "Route de Martel (Martel ➔ Horten'taar)",
+    "description": "**Durée :** 1 h sans arrêt\n**Étapes :** Martel ➔ Fermes d'Horten'taar 45 min, Fermes d'Horten'taar ➔ Horten'taar 15 min\n**Relais :** Martel ⇄ Horten'taar 15 min (350 G)",
     "_umap_options": {
      "color": "ForestGreen",
      "weight": 5,
@@ -55,7 +55,7 @@
    },
    "properties": {
     "name": "Martel ➔ Balanol",
-    "description": "**Temps à pied :** 3 min 15 s\n**Risques :** Route forestière, attention aux brigands la nuit.",
+    "description": "**Durée :** 1 h",
     "_umap_options": {
      "color": "Goldenrod",
      "weight": 5,
@@ -88,7 +88,7 @@
    },
    "properties": {
     "name": "Route de Venor'taar (Horten'taar ➔ Venor'taar)",
-    "description": "**Temps à pied :** 5 min 10 s\n**Risques :** Longue route sinueuse, traversée de ponts.",
+    "description": "**Durée :** 1 h sans arrêt\n**Étapes :** Horten'taar ➔ Scierie d'Horten'taar 15 min, Scierie d'Horten'taar ➔ Venor'taar 45 min\n**Relais :** Horten'taar ⇄ Venor'taar 15 min (350 G)",
     "_umap_options": {
      "color": "Goldenrod",
      "weight": 5,
@@ -117,7 +117,7 @@
    },
    "properties": {
     "name": "Horten'taar ➔ Port d'Horten'taar",
-    "description": "**Temps à pied :** 1 min 00 s\n**Risques :** Axe commercial direct et 100 % sécurisé.",
+    "description": "**Durée :** 15 min",
     "_umap_options": {
      "color": "ForestGreen",
      "weight": 5,
@@ -149,8 +149,8 @@
     ]
    },
    "properties": {
-    "name": "Venor'taar ➔ Camp de bandit",
-    "description": "**Temps à pied :** 2 min 45 s\n**Risques :** Zone hostile (aggro fréquente de Bandits).",
+    "name": "Venor'taar ➔ Camp de bandit des collines du nord",
+    "description": "**Durée :** 45 min",
     "_umap_options": {
      "color": "Crimson",
      "weight": 5,
