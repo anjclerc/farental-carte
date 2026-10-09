@@ -7,7 +7,7 @@ Carte du jeu [Farental](https://farental.ch) découpée en tuiles 256 px (format
 *Propriétés avancées de la carte → Custom background → url* :
 
 ```
-https://cdn.jsdelivr.net/gh/anjclerc/farental-carte@a744c2e/tuiles/{z}/{x}/{y}.jpg
+https://cdn.jsdelivr.net/gh/anjclerc/farental-carte@3604c99/tuiles/{z}/{x}/{y}.jpg
 ```
 
 | Réglage | Valeur |
@@ -25,7 +25,7 @@ L'image est posée au centre du monde Web Mercator : les coordonnées sont ficti
 python3 tuiles.py farental.jpg tuiles   # nécessite Pillow
 ```
 
-`tuiles/info.json` donne les limites et les zooms calculés. L'adresse est épinglée sur un commit (`@a744c2e`) : après une nouvelle carte, pousse le commit puis remplace ce code dans uMap par le nouveau (`git log --oneline -1`). Avec `@main`, jsDelivr garde l'ancienne version en cache jusqu'à 12 h.
+`tuiles/info.json` donne les limites et les zooms calculés. L'adresse est épinglée sur un commit (`@3604c99`) : après une nouvelle carte, pousse le commit puis remplace ce code dans uMap par le nouveau (`git log --oneline -1`). Avec `@main`, jsDelivr garde l'ancienne version en cache jusqu'à 12 h.
 
 ## Lieux et routes
 
