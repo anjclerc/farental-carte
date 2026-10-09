@@ -15,6 +15,7 @@ SOURCE = Path(sys.argv[1])
 SORTIE = Path(sys.argv[2])
 NATIF, ZMIN, ZMAX = 3, 1, 5
 T = 256
+MARGE = 3  # tuiles de fond autour de l'image (évite le gris en bord de carte)
 
 img = Image.open(SOURCE).convert("RGB")
 W, H = img.size
@@ -37,8 +38,10 @@ for z in range(ZMIN, ZMAX + 1):
     iw, ih = round(W * s), round(H * s)
     x0, y0 = round(ox * s), round(oy * s)
     redim = img.resize((iw, ih), Image.LANCZOS)
-    for tx in range(x0 // T, (x0 + iw - 1) // T + 1):
-        for ty in range(y0 // T, (y0 + ih - 1) // T + 1):
+    # marge de MARGE tuiles autour de l'image, remplie de la couleur du bord
+    n = 2 ** z
+    for tx in range(max(0, x0 // T - MARGE), min(n, (x0 + iw - 1) // T + 1 + MARGE)):
+        for ty in range(max(0, y0 // T - MARGE), min(n, (y0 + ih - 1) // T + 1 + MARGE)):
             tuile = Image.new("RGB", (T, T), fond)
             tuile.paste(redim, (x0 - tx * T, y0 - ty * T))
             dossier = SORTIE / str(z) / str(tx)
