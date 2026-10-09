@@ -29,7 +29,13 @@ python3 tuiles.py farental.jpg tuiles   # nécessite Pillow
 
 ## Lieux et routes
 
-`donnees/lieux.py` génère les couches GeoJSON importées dans uMap (`villes`, `ressources`, `dangers`, `routes`). Les positions sont données en pixels de `farental.jpg`, le script les convertit dans les coordonnées des tuiles. Import dans uMap : *Import data* → coller le fichier → format *geojson* → *Import in a new layer*.
+`donnees/lieux.py` génère les couches GeoJSON importées dans uMap (`villes`, `ressources`, `dangers`, `routes`). Les positions sont données en pixels de `farental.jpg`, le script les convertit dans les coordonnées des tuiles.
+
+```bash
+cd donnees && python3 lieux.py
+```
+
+Mettre à jour un calque dans uMap (mode édition) : *Importer des données* → coller le contenu du fichier → format *geojson* → choisir le calque → cocher *Remplacer le contenu du calque* → *Importer des données*, puis *Enregistrer*. La carte est collaborative : avant de remplacer un calque, vérifie que personne n'y a ajouté d'informations qui ne sont pas encore dans `lieux.py`.
 
 ### Format des descriptions
 
